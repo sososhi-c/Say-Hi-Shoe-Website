@@ -1,0 +1,950 @@
+.frame-child,
+.frame-item {
+  position: relative;
+  display: none;
+}
+.frame-child {
+  height: 14px;
+  width: 13px;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+.frame-item {
+  height: 87px;
+  width: 1280px;
+  background-color: var(--color-gray-200);
+  max-width: 100%;
+}
+.frame-child1,
+.frame-child2,
+.frame-inner,
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 16.7px;
+  height: 17px;
+  z-index: 1;
+}
+.frame-child1,
+.frame-child2,
+.rectangle-div {
+  left: 21.9px;
+  background-color: var(--color-mediumaquamarine);
+}
+.frame-child1,
+.frame-child2 {
+  top: 21.9px;
+  left: 0;
+}
+.frame-child2 {
+  left: 21.9px;
+  background-color: var(--color-white);
+}
+.rectangle-group {
+  height: 38.9px;
+  width: 38.6px;
+  position: relative;
+}
+.new {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.new-wrapper {
+  width: 67px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) 0 0;
+  box-sizing: border-box;
+}
+.frame-group,
+.frame-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-group {
+  flex: 1;
+  justify-content: space-between;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.frame-wrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-9xs-8);
+}
+.shoe {
+  color: var(--color-mediumaquamarine);
+}
+.soshoe {
+  width: 68px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+  margin-top: -2.2px;
+  color: var(--color-gray-100);
+}
+.frame-parent {
+  width: 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.men,
+.women {
+  height: 20px;
+  width: 67px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.gender-category,
+.genders {
+  display: flex;
+  align-items: flex-start;
+}
+.genders {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.gender-category {
+  width: 179px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.kids {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.kids-wrapper {
+  width: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.sports {
+  width: 67px;
+  height: 20px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.sports-wrapper {
+  width: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.outlets {
+  width: 67px;
+  height: 20px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.outlets-wrapper {
+  width: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.frame-child3 {
+  height: 38px;
+  width: 376px;
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  display: none;
+  max-width: 100%;
+}
+.image-1-icon {
+  height: 27px;
+  width: 29px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.frame-container,
+.rectangle-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-container {
+  width: 376px;
+  background-color: var(--color-gainsboro-200);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-2xs) var(--padding-8xs);
+  z-index: 1;
+}
+.frame-container {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-mid) 0 0;
+}
+.image-2-icon {
+  width: 38px;
+  height: 38px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.image-2-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-8xl) 0 0;
+}
+.image-3-icon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.image-3-wrapper,
+.rectangle-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+}
+.rectangle-parent {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  flex-direction: row;
+  padding: var(--padding-lgi) var(--padding-14xl) var(--padding-xs);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.for-him {
+  width: 103px;
+  position: relative;
+  display: none;
+}
+.discount-title,
+.flat {
+  position: relative;
+  display: inline-block;
+}
+.discount-title {
+  width: 327px;
+  height: 175px;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+}
+.flat {
+  height: 81px;
+  flex: 1;
+  font-weight: 500;
+  z-index: 4;
+}
+.separator {
+  height: 1px;
+  width: 74px;
+  position: absolute;
+  margin: 0 !important;
+  top: 30px;
+  right: 43px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 4;
+}
+.flat-parent {
+  width: 234px;
+  top: 60px;
+  left: 101px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-tomorrow);
+}
+.discount-title-parent,
+.flat-parent,
+.separator1 {
+  margin: 0 !important;
+  position: absolute;
+}
+.separator1 {
+  width: 74px;
+  height: 1px;
+  bottom: 84px;
+  left: 21px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 4;
+}
+.discount-title-parent {
+  width: 335px;
+  top: -47px;
+  left: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.discount-details-child,
+.discount-details-item {
+  height: 37px;
+  width: 97px;
+  position: absolute;
+  margin: 0 !important;
+  right: 305px;
+  bottom: 55px;
+  background-color: var(--color-gainsboro-200);
+  z-index: 1;
+}
+.discount-details-item {
+  right: 167px;
+}
+.discount-ends-child {
+  height: 296px;
+  width: 1280px;
+  position: relative;
+  background-color: var(--color-darkolivegreen);
+  display: none;
+  max-width: 100%;
+}
+.discount-ends-title,
+.off {
+  position: relative;
+  display: inline-block;
+}
+.discount-ends-title {
+  height: 94px;
+  font-weight: 500;
+  flex-shrink: 0;
+  min-width: 119px;
+  z-index: 4;
+}
+.off {
+  height: 79px;
+  flex: 1;
+  font-weight: 600;
+  z-index: 1;
+}
+.discount-ends-details,
+.discount-ends-value {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.discount-ends-value {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-smi);
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-titillium-web);
+}
+.discount-ends-details {
+  width: 141px;
+  flex-direction: column;
+  gap: 60px;
+}
+.end-of-season {
+  width: 350px;
+  position: absolute;
+  margin: 0 !important;
+  top: -44px;
+  left: -99px;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.ends-2nd-feb {
+  height: 42px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 300;
+  display: inline-block;
+  z-index: 2;
+}
+.end-of-season-sale-parent,
+.sale-details-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.end-of-season-sale-parent {
+  width: 173px;
+  justify-content: flex-start;
+  position: relative;
+}
+.sale-details-inner {
+  width: 371px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+  width: 97px;
+  height: 37px;
+  z-index: 1;
+}
+.for-him1 {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  display: inline-block;
+  width: 103px;
+  height: 33px;
+  z-index: 2;
+}
+.frame-div {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  min-width: 85px;
+}
+.frame-child5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+  width: 97px;
+  height: 37px;
+  z-index: 3;
+}
+.for-her {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  display: inline-block;
+  width: 103px;
+  height: 33px;
+  z-index: 4;
+}
+.rectangle-parent1 {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  min-width: 85px;
+}
+.for-him2 {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  display: inline-block;
+  width: 103px;
+  height: 33px;
+  z-index: 2;
+}
+.frame-child6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+  width: 97px;
+  height: 37px;
+  z-index: 3;
+}
+.for-kids {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  display: inline-block;
+  width: 103px;
+  height: 33px;
+  z-index: 4;
+}
+.for-him-parent {
+  height: 38px;
+  flex: 1;
+  position: relative;
+  min-width: 85px;
+}
+.categories-selection,
+.sale-details {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.categories-selection {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-4xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.sale-details {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 80px;
+  max-width: 100%;
+}
+.discount-ends,
+.sale-banner {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sale-banner {
+  width: 385px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 21px;
+  font-size: 36px;
+  font-family: var(--font-titillium-web);
+}
+.discount-ends {
+  flex: 1;
+  background-color: var(--color-darkolivegreen);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 30px 151px var(--padding-14xl) 354px;
+  gap: var(--gap-xl);
+  font-size: 128px;
+}
+.discount-banner,
+.discount-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.discount-details {
+  flex: 1;
+  position: relative;
+}
+.discount-banner {
+  align-self: stretch;
+  padding: 0 0 var(--padding-3xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 256px;
+  color: var(--color-white);
+  font-family: var(--font-trirong);
+}
+.trending-now {
+  width: 198px;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.image-4-icon {
+  height: 245px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
+}
+.product-images {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.unisex-sneakers {
+  margin-right: -61px;
+  width: 250px;
+  height: 22px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.product-descriptions {
+  width: 189px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.b {
+  position: relative;
+  display: inline-block;
+  color: var(--color-firebrick-100);
+  min-width: 54.4px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.product-columns,
+.product-details {
+  display: flex;
+  justify-content: flex-start;
+}
+.product-details {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+}
+.product-columns {
+  width: 267px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-smi);
+}
+.image-5-icon {
+  height: 245px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
+}
+.image-5-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 8px 0 2px;
+}
+.running-shoes {
+  margin-right: -44px;
+  width: 250px;
+  height: 22px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.running-shoes-wrapper {
+  width: 206px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.b1 {
+  width: 77px;
+  position: relative;
+  display: inline-block;
+  color: var(--color-firebrick-100);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.frame-parent1,
+.product-columns1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.product-columns1 {
+  width: 283px;
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.image-8-icon {
+  width: 280px;
+  height: 245px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.training-shoes {
+  margin-right: -31px;
+  width: 250px;
+  height: 22px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.training-shoes-wrapper {
+  width: 219px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.b2 {
+  width: 77px;
+  position: relative;
+  display: inline-block;
+  color: var(--color-firebrick-100);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.frame-parent2 {
+  flex: 1;
+  flex-direction: row;
+}
+.frame-parent2,
+.image-8-parent,
+.product-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.product-info {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-8xs);
+}
+.image-8-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-smi);
+  min-width: 196px;
+}
+.image-9-icon {
+  width: 284px;
+  height: 245px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.b3,
+.unisex-sneakers1 {
+  position: relative;
+  display: inline-block;
+}
+.unisex-sneakers1 {
+  height: 22px;
+  flex: 1;
+}
+.b3 {
+  width: 77px;
+  color: var(--color-firebrick-100);
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 1;
+  margin-left: -29px;
+}
+.image-9-parent,
+.product-info1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.product-info1 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.image-9-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-smi);
+  min-width: 196px;
+}
+.product-rows {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-8xl);
+}
+.product-grid,
+.product-rows,
+.trending-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.product-grid {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 15px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-titillium-web);
+}
+.trending-details {
+  flex: 1;
+  flex-direction: column;
+  gap: 35px;
+}
+.macbook-air-1,
+.trending-details-wrapper {
+  display: flex;
+  box-sizing: border-box;
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-titillium-web);
+}
+.trending-details-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi) 0 var(--padding-3xl);
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+}
+.macbook-air-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 64px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-xl);
+}
+@media screen and (max-width: 1100px) {
+  .genders {
+    display: none;
+  }
+  .gender-category {
+    width: 14px;
+  }
+  .discount-ends {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .discount-title {
+    font-size: 102px;
+  }
+  .flat {
+    font-size: var(--font-size-19xl);
+  }
+  .discount-ends-title {
+    font-size: 51px;
+  }
+  .off {
+    font-size: var(--font-size-19xl);
+  }
+  .end-of-season {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .discount-ends {
+    padding-left: 177px;
+    padding-right: 75px;
+    box-sizing: border-box;
+  }
+  .trending-details {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .for-him {
+    font-size: var(--font-size-base);
+  }
+  .discount-title {
+    font-size: 64px;
+  }
+  .flat {
+    font-size: var(--font-size-10xl);
+  }
+  .discount-ends-title {
+    font-size: var(--font-size-13xl);
+  }
+  .off {
+    font-size: var(--font-size-10xl);
+  }
+  .end-of-season {
+    font-size: var(--font-size-3xl);
+  }
+  .ends-2nd-feb {
+    font-size: var(--font-size-lgi);
+  }
+  .for-her,
+  .for-him1,
+  .for-him2,
+  .for-kids {
+    font-size: var(--font-size-base);
+  }
+  .categories-selection {
+    flex-wrap: wrap;
+  }
+  .sale-details {
+    gap: 40px;
+  }
+  .discount-ends {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .trending-now {
+    font-size: var(--font-size-lgi);
+  }
+  .b,
+  .b1,
+  .b2,
+  .b3,
+  .running-shoes,
+  .training-shoes,
+  .unisex-sneakers,
+  .unisex-sneakers1 {
+    font-size: var(--font-size-base);
+  }
+}

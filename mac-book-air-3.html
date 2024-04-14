@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./mac-book-air-3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Titillium Web:wght@300;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Trirong:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="macbook-air-3">
+      <header class="group-header">
+        <div class="frame-child7"></div>
+        <div class="frame-parent3">
+          <div class="frame-wrapper1">
+            <div class="item-labels-parent">
+              <div class="item-labels"></div>
+              <div class="item-labels1"></div>
+              <div class="registration"></div>
+              <div class="item-labels2"></div>
+            </div>
+          </div>
+          <div class="soshoe1">
+            <span>So</span>
+            <span class="shoe1">Shoe</span>
+          </div>
+        </div>
+        <div class="women-categories-wrapper">
+          <div class="women-categories">
+            <div class="new1">New</div>
+            <div class="women1">Women</div>
+          </div>
+        </div>
+        <div class="men-wrapper">
+          <div class="men1">Men</div>
+        </div>
+        <div class="kids-container">
+          <div class="kids1">Kids</div>
+        </div>
+        <div class="sports-container">
+          <div class="sports1">Sports</div>
+        </div>
+        <div class="outlets-container">
+          <div class="outlets1">Outlets</div>
+        </div>
+        <div class="image-one">
+          <div class="image-container-one">
+            <div class="image-container-one-child"></div>
+            <img
+              class="image-1-icon1"
+              loading="lazy"
+              alt=""
+              src="./public/image-1@2x.png"
+            />
+          </div>
+        </div>
+        <div class="image-two">
+          <img
+            class="image-2-icon1"
+            loading="lazy"
+            alt=""
+            src="./public/image-2@2x.png"
+            id="image2Icon"
+          />
+        </div>
+        <div class="image-three">
+          <img
+            class="image-3-icon1"
+            loading="lazy"
+            alt=""
+            src="./public/image-3@2x.png"
+          />
+        </div>
+      </header>
+      <div class="my-account-wrapper">
+        <h1 class="my-account">My Account</h1>
+      </div>
+      <section class="login-area">
+        <form class="login-fields">
+          <div class="login-actions">
+            <div class="button-area">
+              <div class="button-container">
+                <h1 class="login-register">Login / Register</h1>
+              </div>
+              <div class="button-divider"></div>
+            </div>
+            <h2 class="enter-your-email">Enter your email and password</h2>
+          </div>
+          <div class="input-labels">
+            <div class="email">EMAIL</div>
+            <input class="input-boxes" type="text" />
+          </div>
+          <div class="input-labels1">
+            <div class="password">PASSWORD</div>
+            <input class="input-labels-child" type="text" />
+          </div>
+          <div class="remember-me">
+            <input class="remember-checkbox" type="checkbox" />
+
+            <h3 class="remember-me-on">Remember me on this device</h3>
+          </div>
+          <button class="login-button-area">
+            <div class="login-button-box" id="loginButtonBox"></div>
+            <a class="login" href="./index.html">LOGIN</a>
+        </button>
+          <h3 class="forgotten-your-password">Forgotten your password?</h3>
+        </form>
+      </section>
+    </div>
+
+    <script>
+      var image2Icon = document.getElementById("image2Icon");
+      if (image2Icon) {
+        image2Icon.addEventListener("click", function (e) {
+          window.location.href = "./mac-book-air-2.html";
+        });
+      }
+      
+      var loginButtonBox = document.getElementById("loginButtonBox");
+      if (loginButtonBox) {
+        loginButtonBox.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      </script>
+  </body>
+</html>
